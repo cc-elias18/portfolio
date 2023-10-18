@@ -1,0 +1,70 @@
+div{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: black;
+}
+.pp{
+    height: 280px;
+    border-radius: 140px;
+    box-shadow: 5px 6px 5px black
+}
+
+.AllUp{
+    display: block;
+}
+
+
+
+.info{
+    display: inline-block;
+}
+
+.info h1{
+    overflow: hidden;
+    border-right: .15em solid red;
+    font-size: 1.6rem;
+    width: 0;
+    animation: typing 3s forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+li{
+    text-align: left;
+}
+
+.pro1{
+    background-color: #f03629;
+}
+.pro2{
+    background-color: rgb(58, 58, 231);
+}
+.pro3{
+    background-color: rgba(245, 245, 62, 0.938);
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects div{
+    display: block;
+    border-radius: 64px;
+    color: black;
+    font-size: medium;
+    box-shadow: 3px 3px 5px black;
+}
+
+.projects img{
+    margin-left: 14px;
+    margin-right: 14px;
+    border-radius: 12px;
+    width: 280px;
+    height: 160px;
+}
